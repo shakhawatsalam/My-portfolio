@@ -25,9 +25,11 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex quasi quam. Excepturi voluptatibus illo explicabo quo provident minus deserunt.
       </SectionText>
-      <a href={'https://drive.google.com/file/d/1-twY7dX9Y5e0_2Ay0gU4zK1mt38ZqrFs/view?usp=sharing'} target={"_blank"} download='SHAKHAWAT SALAM (1).pdf'><Button>Resume</Button></a>
+      <a href={'https://drive.google.com/uc?export=download&id=1-twY7dX9Y5e0_2Ay0gU4zK1mt38ZqrFs'} target={"_blank"} download><Button>Resume</Button></a>
     </LeftSection>
   </Section>
 );
 
 export default Hero;
+
+// https://drive.google.com/uc?export=download&id=1Anj2EqiT2WCMZFcMN8Avu06rD2weUnBE
