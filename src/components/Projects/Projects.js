@@ -30,15 +30,15 @@ const Projects = () => {
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {
-                  tags.map((tag, i) => (
-                    <Tag key={i}>{tag}</Tag>
+                  tags.map((tag, index) => (
+                    <Tag key={index}>{tag}</Tag>
                   ))
                 }
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks key={visit}>Code</ExternalLinks>
-              <ExternalLinks key={source}>Source</ExternalLinks>
+              <ExternalLinks href={visit}>Code</ExternalLinks>
+              <ExternalLinks href={source}>Source</ExternalLinks>
             </UtilityList>
           </BlogCard>
         ))
