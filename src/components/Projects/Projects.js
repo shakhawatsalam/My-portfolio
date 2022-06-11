@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { useEffect } from 'react/cjs/react.development';
+
 
 
 const Projects = () => {
