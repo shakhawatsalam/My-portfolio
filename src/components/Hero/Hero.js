@@ -18,14 +18,14 @@ const Hero = () => (
             typeSpeed={55}
             deleteSpeed={50}
             delaySpeed={2000}
-            // onLoopDone={handleDone}
-            // onType={handleType}
+          // onLoopDone={handleDone}
+          // onType={handleType}
           />
-        </span> 
+        </span>
       </SectionTitle>
       <SectionText>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex quasi quam. Excepturi voluptatibus illo explicabo quo provident minus deserunt.
       </SectionText>
-      <a href={'https://drive.google.com/uc?export=download&id=1-twY7dX9Y5e0_2Ay0gU4zK1mt38ZqrFs'} target={"_blank"} download><Button>Resume</Button></a>
+      <a href={'https://drive.google.com/uc?export=download&id=1-twY7dX9Y5e0_2Ay0gU4zK1mt38ZqrFs'} download><Button>Resume</Button></a>
     </LeftSection>
   </Section>
 );
