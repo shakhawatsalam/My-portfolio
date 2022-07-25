@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -11,15 +11,15 @@ import { projects } from '../../constants/constants';
 const Projects = () => {
   useEffect(() => {
     AOS.init();
-},[])
-  
-  return ( <Section nopadding id='project'>
+  }, [])
+
+  return (<Section nopadding id='project'>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {
-        projects.map(({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard  data-aos-anchor-placement="top-bottom"  data-aos="zoom-in" data-aos-duration="3000" key={id}>
+        projects.map(({ id, image, title, description, tags, source, visit, server }) => (
+          <BlogCard data-aos-anchor-placement="top-bottom" data-aos="zoom-in" data-aos-duration="3000" key={id}>
             <Img src={image} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
@@ -37,8 +37,9 @@ const Projects = () => {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              <ExternalLinks target={"_blank"} href={visit}>Live</ExternalLinks>
+              <ExternalLinks target={"_blank"} href={source}>Client</ExternalLinks>
+              <ExternalLinks target={"_blank"} href={server}>Server</ExternalLinks>
             </UtilityList>
           </BlogCard>
         ))

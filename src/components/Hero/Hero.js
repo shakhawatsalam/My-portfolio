@@ -23,7 +23,7 @@ const Hero = () => (
           />
         </span>
       </SectionTitle>
-      <SectionText>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex quasi quam. Excepturi voluptatibus illo explicabo quo provident minus deserunt.
+      <SectionText>I am a junior web developer with experience in HTML, CSS, JavaScript, ES6, React, Tailwind CSS, and Firebase Authentication, and comfortable with Node.js, MongoDB, Express.js, Axios, React Query, TypeScript, JWT Token, Stripe, Heroku, CURD.
       </SectionText>
       <a href={'https://drive.google.com/uc?export=download&id=1-twY7dX9Y5e0_2Ay0gU4zK1mt38ZqrFs'} download><Button>Resume</Button></a>
     </LeftSection>

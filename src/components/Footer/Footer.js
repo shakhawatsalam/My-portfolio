@@ -10,11 +10,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel: 111-545-6465-4654'>111-545-6465-4654</LinkItem>
+          <LinkItem href='tel: 111-545-6465-4654'>+880187-628-8562</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto: skshawon726@gmail.com'>skshawon726@gmail.com</LinkItem>
+          <LinkItem href='mailto: skshawon726@gmail.com'>shakhawatsalam726@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
